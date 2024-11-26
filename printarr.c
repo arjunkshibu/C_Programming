@@ -10,7 +10,11 @@ void print(int *p, int num){
 }
 
 int main() {
-    int arr[] = {10,20,30,40,50};
+    int arr[5];
+
+    for(int i=0;i<5;i++){
+        scanf("%d",arr+i);
+    }
 
     print(arr,5);
     return 0;
